@@ -1,7 +1,7 @@
 {
-    "name": "source",
-    "description": "A default theme for the Ghost publishing platform",
-    "demo": "https://source.ghost.io",
+    "name": "source-mod",
+    "description": "A modified theme for the Ghost publishing platform",
+    "demo": "https://www.jonaharagon.com",
     "version": "1.1.2",
     "engines": {
         "ghost": ">=5.0.0"
@@ -18,9 +18,9 @@
         "postship": "git fetch && gulp release"
     },
     "author": {
-        "name": "Ghost Foundation",
-        "email": "hello@ghost.org",
-        "url": "https://ghost.org/"
+        "name": "Jonah Aragon",
+        "email": "jonah@triplebit.net",
+        "url": "https://www.jonaharagon.com/"
     },
     "gpm": {
         "type": "theme",
@@ -36,10 +36,10 @@
     ],
     "repository": {
         "type": "git",
-        "url": "https://github.com/TryGhost/Source.git"
+        "url": "https://github.com/jonaharagon/ghost-source-mod"
     },
-    "bugs": "https://github.com/TryGhost/Source/issues",
-    "contributors": "https://github.com/TryGhost/Source/graphs/contributors",
+    "bugs": "https://github.com/jonaharagon/ghost-source-mod/issues",
+    "contributors": "https://github.com/jonaharagon/ghost-source-mod/graphs/contributors",
     "devDependencies": {
         "@tryghost/release-utils": "0.8.1",
         "autoprefixer": "10.4.7",

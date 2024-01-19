@@ -1970,6 +1970,57 @@ Search                         LOGO                    Login Subscribe
     opacity: 0.8;
 }
 
+.gh-webrings {
+    margin-top: 48px;
+}
+
+.gh-webrings .webrings {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+.gh-webrings .webring:first-child {
+    margin-top: 4px;
+}
+
+.gh-webrings .webring a:hover {
+    opacity: 1;
+}
+
+.gh-webrings .webring-favicon {
+    grid-row: span 2;
+    width: 100%;
+    border-radius: 4px;
+}
+
+.gh-webrings .webring-title {
+    margin-top: -2px;
+    font-size: 1.5rem;
+    font-weight: 650;
+    letter-spacing: -0.009em;
+}
+
+.gh-webrings .webring a:hover .webring-title {
+    opacity: 0.8;
+}
+
+.gh-webrings .webring-url {
+    display: inline-block;
+    overflow: hidden;
+    font-size: 1.4rem;
+    line-height: 1.25;
+    color: var(--color-secondary-text);
+    text-overflow: ellipsis;
+}
+
+.gh-webrings .webring-url:not(:last-child) {
+    margin-right: 5px;
+}
+
 /* 14. Post/page
 /* ---------------------------------------------------------- */
 
@@ -2762,13 +2813,22 @@ figcaption a {
     list-style-type: none;
 }
 
-.gh-footer-copyright {
+.gh-footer-social {
     text-align: right;
     white-space: nowrap;
 }
 
-.gh-footer-copyright a {
-    text-decoration: underline;
+.gh-footer-social {
+    align-items: center;
+    display: flex;
+    gap: 10px;
+    padding-left: 3px;
+    justify-content: right;
+}
+
+.gh-footer-social svg {
+    height: 20px;
+    width: 20px;
 }
 
 /* 21.3. Footer signup */
