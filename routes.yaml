@@ -1,0 +1,18 @@
+routes:
+  /:
+    controller: channel
+    template: home
+
+collections:
+  /posts/:
+    permalink: /posts/{slug}/
+    template: index
+    filter: tag:posts
+  /video/:
+    permalink: /video/{slug}/
+    template: index
+    filter: tag:video
+
+taxonomies:
+  tag: /tag/{slug}/
+  author: /author/{slug}/
