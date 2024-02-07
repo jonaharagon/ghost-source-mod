@@ -3364,3 +3364,8 @@ figcaption a {
 .pswp--minimal--dark .pswp__top-bar {
     background: none;
 }
+
+/* Fix Gist margins */
+.gist-file .gist-data #file-compose-yml table {
+    margin-top: 0;
+}
